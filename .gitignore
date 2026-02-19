@@ -1,0 +1,13 @@
+# .gitignore for BangiCare
+# Protects personal data — never upload memory files
+
+memory/daily_log.json
+memory/personal_profile.json
+memory/schedule.json
+memory/health_notes.json
+memory/
+
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
